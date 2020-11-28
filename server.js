@@ -1,5 +1,6 @@
 //https://github.com/stripe-samples/accept-a-card-payment
 const express = require("express");
+const fs = require('fs');
 const Stripe = require("stripe");
 var cors = require('cors')
 const app = express();
@@ -104,5 +105,5 @@ app.post("/webhook", async (req, res) => {
   }
   res.sendStatus(200);
 });
-
-app.listen(process.env.PORT||443, () => console.log(`Node server listening on port ${443}!`));
+const routes = require('./routes/routes.js')(app, fs);
+app.listen(process.env.PORT||9000, () => console.log(`Node server listening on port ${process.env.PORT||9000}!`));

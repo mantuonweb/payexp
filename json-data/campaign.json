@@ -1,0 +1,14 @@
+[
+    {
+        "campaign_id": "My campaign ID",
+        "campaign_name": "February 2020",
+        "start_date": "2020-02-01",
+        "end_date": "2020-02-29"
+    },
+    {
+        "campaign_id": "My campaign ID2",
+        "campaign_name": "March 2020",
+        "start_date": "2020-03-01",
+        "end_date": "2020-03-31"
+    }
+]
