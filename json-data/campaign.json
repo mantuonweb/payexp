@@ -1,14 +1,1 @@
-[
-    {
-        "campaign_id": "My campaign ID",
-        "campaign_name": "February 2020",
-        "start_date": "2020-02-01",
-        "end_date": "2020-02-29"
-    },
-    {
-        "campaign_id": "My campaign ID2",
-        "campaign_name": "March 2020",
-        "start_date": "2020-03-01",
-        "end_date": "2020-03-31"
-    }
-]
+[{"campaignID":"My campaign ID2","campaignName":"March 2020","startDate":"2020-11-02T09:31:02.000Z","endDate":"2020-11-17T09:31:02.000Z"},{"campaignID":"Campaign 3","campaignName":"My Campaign","startDate":"2020-11-11T05:41:50.000Z","endDate":"2020-11-25T05:41:50.000Z"}]
